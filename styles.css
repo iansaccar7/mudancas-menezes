@@ -85,7 +85,7 @@ nav a { display: inline-flex; align-items: center; min-height: 44px; font-size: 
 .section-copy p { font-size: 16px; color: var(--muted); }
 .section-copy p + p { margin-top: 20px; }
 .section-copy strong { color: var(--ink); font-weight: 600; }
-.shared-photo img { width: 100%; height: auto; aspect-ratio: 16/10; object-fit: cover; object-position: center; border-radius: 10px; }
+.shared-photo img { width: 100%; height: auto; border-radius: 10px; }
 .shared-photo figcaption, .material-photo figcaption { font-size: 11px; line-height: 1.6; color: var(--muted); margin-top: 10px; }
 .shared-process { margin-top: 24px; padding-top: 22px; border-top: 1px solid var(--line); }
 .shared-process > h3 { font-size: 18px; letter-spacing: -.02em; }
@@ -235,7 +235,7 @@ address { font-style: normal; margin-top: 20px; }
   .split { grid-template-columns: 1fr; gap: 32px; }
   .section-copy { max-width: 600px; }
   .section-copy h2 { max-width: 520px; }
-  .shared-photo img, .packing-photo { aspect-ratio: 3/2; }
+  .packing-photo { aspect-ratio: 3/2; }
   .services-head { display: block; margin-bottom: 28px; }
   .services-head > p { max-width: 520px; margin-top: 20px; }
   .materials-section .section-copy { grid-row: 1; }
